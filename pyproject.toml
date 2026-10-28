@@ -4,7 +4,7 @@
         "setuptools_scm[toml]>=3.4.3",
         "wheel",
         "numpy",
-        "swig",
+        "swig<4.5.0", # still python 2 compatible
     ]
     build-backend = "setuptools.build_meta"
 
